@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import NameForm from './NameForm';
 import Reservation from "./Reservation";
+import FancyBorder from "./FancyBorder";
+import Calculator from "./Calculator";
 
 class App extends Component {
   render() {
@@ -9,6 +11,9 @@ class App extends Component {
         <NameForm />
         <hr/>
         <Reservation />
+          <hr/>
+          <FancyBorder/>
+          <Calculator />
 
 
       </div>
